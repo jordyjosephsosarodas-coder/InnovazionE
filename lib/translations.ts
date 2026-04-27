@@ -164,8 +164,7 @@ export const translations = {
     // CTA Section
     cta: {
       title: "Let's Discuss Your Project",
-      description:
-        "If you want to see the list of completed projects, contact us and we will gladly provide you with the information.",
+      description: "Get in touch to discuss your project and location needs.",
       button: "Contact Us",
     },
 
@@ -183,6 +182,7 @@ export const translations = {
       address: "8va. Calle 1-94 Zona 1 Salcajá, Quetzaltenango, Guatemala",
       phone: "(502) 35142383",
       email: "ingsosaj@mail.com",
+      departmentsTitle: "Departments",
       privacy: "Privacy Policy",
       terms: "Terms of Service",
     },
@@ -351,8 +351,7 @@ export const translations = {
     // CTA Section
     cta: {
       title: "Hablemos de Su Proyecto",
-      description:
-        "Si quieres ver la lista de proyectos realizados contáctanos y con gusto te proveeremos la información.",
+      description: "Contáctanos para hablar sobre tu proyecto y necesidades de ubicación.",
       button: "Contáctenos",
     },
 
@@ -370,6 +369,7 @@ export const translations = {
       address: "8va. Calle 1-94 Zona 1 Salcajá, Quetzaltenango, Guatemala",
       phone: "(502) 35142383",
       email: "ingsosaj@mail.com",
+      departmentsTitle: "Departamentos",
       privacy: "Política de Privacidad",
       terms: "Términos de Servicio",
     },

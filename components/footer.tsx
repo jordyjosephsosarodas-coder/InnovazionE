@@ -1,8 +1,9 @@
 "use client"
 
 import Link from "next/link"
-import { Phone, Mail, MapPin } from "lucide-react"
+import { Mail, MapPin } from "lucide-react"
 import { useLanguage } from "@/lib/language-context"
+import { departments } from "@/lib/departments"
 
 function WhatsAppIcon({ className }: { className?: string }) {
   return (
@@ -18,8 +19,8 @@ export function Footer() {
   return (
     <footer id="contact" className="bg-primary text-primary-foreground">
       <div className="mx-auto max-w-7xl px-6 lg:px-8 py-16 lg:py-20">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 lg:gap-8">
-          <div className="lg:col-span-1">
+        <div className="grid grid-cols-1 gap-12 lg:grid-cols-[1.1fr_1.9fr] lg:gap-20">
+          <div>
             <Link href="/" className="text-xl font-semibold tracking-tight">
               InnovazionE
             </Link>
@@ -49,53 +50,20 @@ export function Footer() {
               </a>
             </div>
           </div>
-          
+
           <div>
-            <h3 className="text-sm font-semibold mb-4">{t.footer.servicesTitle}</h3>
-            <ul className="space-y-3">
-              {t.footer.services.map((item) => (
-                <li key={item}>
-                  <Link
-                    href="#"
-                    className="text-sm text-primary-foreground/70 hover:text-primary-foreground transition-colors"
-                  >
-                    {item}
-                  </Link>
-                </li>
+            <h3 className="text-sm font-semibold mb-4">{t.footer.departmentsTitle}</h3>
+            <div className="grid grid-cols-2 gap-3 sm:grid-cols-3">
+              {departments.map((department) => (
+                <Link
+                  key={department.slug}
+                  href={`/location/${department.slug}`}
+                  className="text-sm text-primary-foreground/70 hover:text-primary-foreground transition-colors"
+                >
+                  {department.name}
+                </Link>
               ))}
-            </ul>
-          </div>
-          
-          <div>
-            <h3 className="text-sm font-semibold mb-4">{t.footer.companyTitle}</h3>
-            <ul className="space-y-3">
-              {t.footer.company.map((item) => (
-                <li key={item}>
-                  <Link
-                    href="#"
-                    className="text-sm text-primary-foreground/70 hover:text-primary-foreground transition-colors"
-                  >
-                    {item}
-                  </Link>
-                </li>
-              ))}
-            </ul>
-          </div>
-          
-          <div>
-            <h3 className="text-sm font-semibold mb-4">{t.footer.resourcesTitle}</h3>
-            <ul className="space-y-3">
-              {t.footer.resources.map((item) => (
-                <li key={item}>
-                  <Link
-                    href="#"
-                    className="text-sm text-primary-foreground/70 hover:text-primary-foreground transition-colors"
-                  >
-                    {item}
-                  </Link>
-                </li>
-              ))}
-            </ul>
+            </div>
           </div>
         </div>
         
