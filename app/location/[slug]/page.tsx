@@ -1,3 +1,4 @@
+import Link from "next/link"
 import { notFound } from "next/navigation"
 import { getDepartment, departments } from "@/lib/departments"
 
@@ -21,34 +22,54 @@ export default function LocationPage({ params }: LocationPageProps) {
   return (
     <main className="min-h-screen bg-background px-6 py-24 lg:px-8">
       <div className="mx-auto max-w-5xl">
-        <h1 className="text-4xl font-semibold tracking-tight text-foreground sm:text-5xl mb-6">
-          {department.name}
-        </h1>
+        <div className="flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between mb-10">
+          <div>
+            <p className="text-sm uppercase tracking-[0.24em] text-accent">Department location</p>
+            <h1 className="mt-4 text-4xl font-semibold tracking-tight text-foreground sm:text-5xl">
+              {department.name}
+            </h1>
+          </div>
+          <div className="flex flex-wrap gap-3">
+            <Link
+              href="/location"
+              className="rounded-full border border-border bg-background px-5 py-3 text-sm font-medium text-foreground transition hover:bg-accent/10"
+            >
+              All Departments
+            </Link>
+            <Link
+              href="/"
+              className="rounded-full border border-border bg-background px-5 py-3 text-sm font-medium text-foreground transition hover:bg-accent/10"
+            >
+              Home
+            </Link>
+          </div>
+        </div>
+
         <p className="text-lg leading-relaxed text-muted-foreground mb-10">
           {department.description}
         </p>
 
         <section className="rounded-3xl border border-border bg-card p-8 shadow-sm">
-          <h2 className="text-2xl font-semibold text-foreground mb-4">Location Focus</h2>
-          <p className="text-base leading-8 text-muted-foreground">
-            We provide localized engineering expertise for {department.name}. Each department page highlights how
-            InnovazionE supports infrastructure resilience, risk reduction, and project success in that region.
+          <h2 className="text-2xl font-semibold text-foreground mb-4">Why InnovazionE in {department.name}?</h2>
+          <p className="text-base leading-8 text-muted-foreground mb-8">
+            We combine deep local knowledge with technical engineering expertise to help projects succeed under the unique conditions of {department.name}. Our approach covers risk evaluation, structural resilience, and project delivery support.
           </p>
 
-          <div className="mt-8 grid gap-6 sm:grid-cols-2">
+          <div className="grid gap-6 sm:grid-cols-2">
             <div className="rounded-2xl bg-background p-6 shadow-sm border border-border">
-              <h3 className="text-lg font-semibold text-foreground mb-2">Regional Needs</h3>
+              <h3 className="text-lg font-semibold text-foreground mb-2">Regional Strengths</h3>
               <p className="text-sm leading-7 text-muted-foreground">
-                Every department has different terrain, weather, and asset types. We adapt our evaluations to local
-                conditions and project risks.
+                {department.name} demands a location-aware strategy: from highland transport routes to coastal development, we tailor our recommendations to terrain, climate, and local regulations.
               </p>
             </div>
             <div className="rounded-2xl bg-background p-6 shadow-sm border border-border">
-              <h3 className="text-lg font-semibold text-foreground mb-2">Our Services</h3>
-              <p className="text-sm leading-7 text-muted-foreground">
-                Structural assessment, site risk analysis, project management support, and mitigation planning for
-                critical infrastructure and development projects.
-              </p>
+              <h3 className="text-lg font-semibold text-foreground mb-2">Key Services</h3>
+              <ul className="list-disc pl-5 text-sm leading-7 text-muted-foreground">
+                <li>Site-specific risk assessment</li>
+                <li>Structural analysis and mitigation planning</li>
+                <li>Construction support and resilience design</li>
+                <li>Regulatory compliance and permitting guidance</li>
+              </ul>
             </div>
           </div>
         </section>
