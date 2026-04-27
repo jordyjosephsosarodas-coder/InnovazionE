@@ -50,9 +50,6 @@ export function Header() {
               <Globe className="h-4 w-4" />
               {language === "en" ? "ES" : "EN"}
             </button>
-            <Button variant="default" className="rounded-full px-6">
-              {t.nav.contact}
-            </Button>
           </div>
 
           <button
@@ -85,9 +82,6 @@ export function Header() {
                   <Globe className="h-4 w-4" />
                   {language === "en" ? "ES" : "EN"}
                 </button>
-                <Button variant="default" className="rounded-full px-6">
-                  {t.nav.contact}
-                </Button>
               </div>
             </div>
           </div>

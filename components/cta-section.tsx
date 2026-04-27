@@ -16,9 +16,6 @@ export function CTASection() {
           <p className="text-muted-foreground leading-relaxed mb-8">
             {t.cta.description}
           </p>
-          <Button size="lg" className="rounded-full px-8">
-            {t.cta.button}
-          </Button>
         </div>
       </div>
     </section>

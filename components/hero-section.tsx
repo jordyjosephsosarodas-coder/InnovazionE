@@ -36,8 +36,10 @@ export function HeroSection() {
                 <ArrowRight className="h-4 w-4" />
               </Link>
             </Button>
-            <Button variant="outline" size="lg" className="rounded-full px-8">
-              {t.hero.ctaSecondary}
+            <Button asChild variant="outline" size="lg" className="rounded-full px-8">
+              <Link href="/work.pdf" target="_blank" rel="noopener noreferrer">
+                {t.hero.ctaSecondary}
+              </Link>
             </Button>
           </div>
         </div>
