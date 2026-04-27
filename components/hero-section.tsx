@@ -11,6 +11,7 @@ export function HeroSection() {
   return (
     <section className="relative min-h-screen flex items-center justify-center pt-16">
       <div className="absolute inset-0 overflow-hidden">
+        <div className="absolute inset-0 bg-[url('/images/engineering-team.jpg')] bg-cover bg-center opacity-20" />
         <div className="absolute inset-0 bg-[linear-gradient(to_right,#80808012_1px,transparent_1px),linear-gradient(to_bottom,#80808012_1px,transparent_1px)] bg-[size:48px_48px]" />
       </div>
       

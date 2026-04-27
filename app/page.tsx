@@ -6,18 +6,31 @@ import { AboutSection } from "@/components/about-section"
 import { ApproachSection } from "@/components/approach-section"
 import { CTASection } from "@/components/cta-section"
 import { Footer } from "@/components/footer"
+import { Reveal } from "@/components/reveal"
 
 export default function Home() {
   return (
     <>
       <Header />
       <main>
-        <HeroSection />
-        <ServicesSection />
-        <StatsSection />
-        <AboutSection />
-        <ApproachSection />
-        <CTASection />
+        <Reveal>
+          <HeroSection />
+        </Reveal>
+        <Reveal>
+          <ServicesSection />
+        </Reveal>
+        <Reveal>
+          <StatsSection />
+        </Reveal>
+        <Reveal>
+          <AboutSection />
+        </Reveal>
+        <Reveal>
+          <ApproachSection />
+        </Reveal>
+        <Reveal>
+          <CTASection />
+        </Reveal>
       </main>
       <Footer />
     </>
