@@ -1,5 +1,6 @@
 "use client"
 
+import Link from "next/link"
 import { Button } from "@/components/ui/button"
 import { ArrowRight } from "lucide-react"
 import { useLanguage } from "@/lib/language-context"
@@ -29,9 +30,11 @@ export function HeroSection() {
           </p>
           
           <div className="mt-10 flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Button size="lg" className="rounded-full px-8 gap-2">
-              {t.hero.cta}
-              <ArrowRight className="h-4 w-4" />
+            <Button asChild size="lg" className="rounded-full px-8 gap-2">
+              <Link href="#contact">
+                {t.hero.cta}
+                <ArrowRight className="h-4 w-4" />
+              </Link>
             </Button>
             <Button variant="outline" size="lg" className="rounded-full px-8">
               {t.hero.ctaSecondary}
