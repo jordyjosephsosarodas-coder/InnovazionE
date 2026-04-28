@@ -1,12 +1,14 @@
 "use client"
 
 import Link from "next/link"
+import { usePathname } from "next/navigation"
 import { useState } from "react"
 import { Button } from "@/components/ui/button"
 import { Menu, X, Globe } from "lucide-react"
 import { useLanguage } from "@/lib/language-context"
 
 export function Header() {
+  const pathname = usePathname()
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
   const { language, setLanguage, t } = useLanguage()
 
@@ -25,7 +27,16 @@ export function Header() {
       <nav className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="flex h-16 items-center justify-between">
           <div className="flex items-center gap-2">
-            <Link href="/" className="text-xl font-semibold tracking-tight text-foreground">
+            <Link
+              href="/"
+              className="text-xl font-semibold tracking-tight text-foreground"
+              onClick={(event) => {
+                if (pathname === "/") {
+                  event.preventDefault()
+                  window.scrollTo({ top: 0, behavior: "smooth" })
+                }
+              }}
+            >
               InnovazionE
             </Link>
           </div>
