@@ -71,7 +71,7 @@ export const translations = {
     // Stats Section
     stats: [
       { value: "25+", label: "Projects Completed" },
-      { value: "Q277M", label: "Assets Protected" },
+      { value: "Q277M+", label: "In Assets Protected" },
       { value: "7+", label: "Years Experience" },
       { value: "5", label: "Civil Engineering Specialties" },
     ],
