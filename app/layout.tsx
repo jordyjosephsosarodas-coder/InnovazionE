@@ -8,8 +8,17 @@ const _geist = Geist({ subsets: ["latin"] });
 const _geistMono = Geist_Mono({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: 'InnovazionE | Structural Engineering & Risk Management',
-  description: 'Expert structural engineering firm specializing in project risk evaluation and management. Protecting your investments through precision analysis.',
+  title: 'Ingeniería Estructural y Gestión de Riesgos | InnovazionE Guatemala',
+  description: 'Diseño, rehabilitación, supervisión, ejecución y remodelación de infraestructura en toda Guatemala. Consultoría en resiliencia, confiabilidad, sostenibilidad, optimización e innovación.',
+  keywords: [
+    'ingeniería estructural Guatemala',
+    'arquitectura y diseño de bodegas',
+    'gestión de riesgos de infraestructura',
+    'calculo, reforzamiento y diseño estructural avanzado',
+    'planos para construcción',
+    'Ingeniería civil en occidente',
+    'ingeniería hidrológica, sanitaria y geotécnica'
+  ],
   generator: 'v0.app',
   icons: {
     icon: [
