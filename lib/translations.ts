@@ -258,7 +258,7 @@ export const translations = {
     // Stats Section
     stats: [
       { value: "25+", label: "Proyectos Completados" },
-      { value: "Q277M", label: "Activos Protegidos" },
+      { value: "Q277M+", label: "En Activos Protegidos" },
       { value: "7+", label: "Años de Experiencia" },
       { value: "5", label: "Especialidades en Ingeniería Civil" },
     ],
