@@ -72,10 +72,10 @@ export function Footer() {
             &copy; {new Date().getFullYear()} {t.footer.copyright}
           </p>
           <div className="flex gap-6">
-            <Link href="#" className="text-sm text-primary-foreground/70 hover:text-primary-foreground transition-colors">
+            <Link href="/privacy-policy" className="text-sm text-primary-foreground/70 hover:text-primary-foreground transition-colors">
               {t.footer.privacy}
             </Link>
-            <Link href="#" className="text-sm text-primary-foreground/70 hover:text-primary-foreground transition-colors">
+            <Link href="/terms-of-service" className="text-sm text-primary-foreground/70 hover:text-primary-foreground transition-colors">
               {t.footer.terms}
             </Link>
           </div>

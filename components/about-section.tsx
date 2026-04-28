@@ -12,7 +12,7 @@ export function AboutSection() {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20 items-center">
           <div className="relative aspect-[4/3] bg-muted rounded-lg overflow-hidden">
             <Image
-              src="/images/engineering-team.jpg"
+              src="/images/project-1.jpg"
               alt={t.about.imageAlt}
               fill
               className="object-cover"
