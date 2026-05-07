@@ -1,4 +1,4 @@
-export type Language = "en" | "es"
+export type Language = "es" | "en"
 
 export const translations = {
   en: {
@@ -168,6 +168,81 @@ export const translations = {
       button: "Contact Us",
     },
 
+    locationsIndex: {
+      label: "Departments",
+      title: "InnovazionE coverage across Guatemala",
+      subtitle:
+        "Discover the services InnovazionE provides in every department. Select a region to see local risk management and engineering support.",
+      backHome: "Back to home",
+      viewDetailsCta: "View department details →",
+    },
+
+    locationPage: {
+      badge: "Department location",
+      allDepartments: "All departments",
+      home: "Home",
+      whyInnovazionLeading: "Why InnovazionE in ",
+      whyInnovazionTrailing: "?",
+      regionalStrengthTitle: "Regional strengths",
+      keyServicesTitle: "Key services",
+      keyServiceBullets: [
+        "Site-specific risk assessment",
+        "Structural analysis and mitigation planning",
+        "Construction support and resilience design",
+        "Regulatory compliance and permitting guidance",
+      ],
+    },
+
+    privacyPolicy: {
+      badge: "Privacy Policy",
+      title: "Your privacy matters to InnovazionE",
+      intro:
+        "We collect only the information needed to respond to inquiries and support our client services. We do not sell personal data, and we protect any submitted contact details with appropriate security measures.",
+      sections: [
+        {
+          title: "Information We Collect",
+          body:
+            "When you contact us through the site, we may collect your name, email address, phone number, company, and project details to provide an accurate response and follow-up.",
+        },
+        {
+          title: "How We Use It",
+          body:
+            "We use submitted information strictly to respond to requests, share relevant project resources, and communicate about engineering services. We do not share your personal contact details with third parties for marketing purposes.",
+        },
+        {
+          title: "Data Security",
+          body:
+            "We maintain reasonable safeguards to protect data collected through the website. If you have any concerns about your information, please contact us using the details in the footer.",
+        },
+      ],
+      backHome: "Back to Home",
+    },
+
+    termsOfService: {
+      badge: "Terms of Service",
+      title: "Website Terms and Conditions",
+      intro:
+        "These terms describe how you may use the InnovazionE website and the content available here. By accessing the site, you agree to these terms for informational purposes only.",
+      sections: [
+        {
+          title: "Use of the Site",
+          body:
+            "The site is provided for informational and contact purposes. You may not reproduce or redistribute any content without prior written permission from InnovazionE.",
+        },
+        {
+          title: "No Professional Advice",
+          body:
+            "Content on this website is not a substitute for professional engineering, legal, or financial advice. Please contact InnovazionE directly for project-specific guidance.",
+        },
+        {
+          title: "Limitation of Liability",
+          body:
+            "InnovazionE is not liable for any indirect or consequential damages arising from the use of the website or reliance on its content. Use the site at your own discretion.",
+        },
+      ],
+      backHome: "Back to Home",
+    },
+
     // Footer
     footer: {
       tagline:
@@ -201,10 +276,10 @@ export const translations = {
     // Hero Section
     hero: {
       badge: "Más de 25 proyectos a nivel nacional",
-      title: "Gestión de Infraestructura Civil",
+      title: "Ingeniería Estructural y Gestión de Riesgos",
       description:
-        "Contamos con equipo especializado en ingeniería estructural, sanitaria, geotécnica, hidrológica y evaluación y gestión de riesgos.",
-      cta: "Solicitar Consulta",
+        "Diseño, rehabilitación, supervisión, ejecución y remodelación de infraestructura en toda Guatemala. Consultoría en resiliencia, confiabilidad, sostenibilidad, optimización e innovación.",
+      cta: "Solicitar una Consulta",
       ctaSecondary: "Ver Nuestro Trabajo",
     },
 
@@ -353,6 +428,81 @@ export const translations = {
       title: "Hablemos de Su Proyecto",
       description: "Contáctanos para hablar sobre tu proyecto y necesidades de ubicación.",
       button: "Contáctenos",
+    },
+
+    locationsIndex: {
+      label: "Departamentos",
+      title: "Cobertura de InnovazionE en Guatemala",
+      subtitle:
+        "Conozca los servicios que InnovazionE brinda en cada departamento. Elija una región para revisar apoyo local en gestión de riesgos e ingeniería.",
+      backHome: "Volver al inicio",
+      viewDetailsCta: "Ver detalles del departamento →",
+    },
+
+    locationPage: {
+      badge: "Departamento",
+      allDepartments: "Todos los departamentos",
+      home: "Inicio",
+      whyInnovazionLeading: "¿Por qué InnovazionE en ",
+      whyInnovazionTrailing: "?",
+      regionalStrengthTitle: "Fortalezas regionales",
+      keyServicesTitle: "Servicios clave",
+      keyServiceBullets: [
+        "Evaluación de riesgos específica del sitio",
+        "Análisis estructural y planeación de mitigación",
+        "Apoyo en construcción y diseño resilientes",
+        "Cumplimiento normativo y guía en permisos",
+      ],
+    },
+
+    privacyPolicy: {
+      badge: "Política de Privacidad",
+      title: "Su privacidad es importante para InnovazionE",
+      intro:
+        "Solo recopilamos la información necesaria para responder consultas y apoyar nuestros servicios a clientes. No vendemos datos personales y protegemos los datos de contacto enviados con medidas de seguridad acordes.",
+      sections: [
+        {
+          title: "Información que recopilamos",
+          body:
+            "Cuando nos contacta por el sitio, podemos solicitar su nombre, correo electrónico, teléfono, empresa y detalles del proyecto para ofrecer una respuesta precisa y dar seguimiento.",
+        },
+        {
+          title: "Cómo la utilizamos",
+          body:
+            "Usamos esa información únicamente para responder solicitudes, compartir recursos del proyecto cuando aplique y comunicarnos sobre servicios de ingeniería. No compartimos sus datos personales de contacto con terceros con fines de marketing.",
+        },
+        {
+          title: "Seguridad de los datos",
+          body:
+            "Aplicamos salvaguardas razonables para proteger los datos recopilados por el sitio. Si tiene dudas sobre su información, contáctenos con los datos que aparecen al pie de página.",
+        },
+      ],
+      backHome: "Volver al inicio",
+    },
+
+    termsOfService: {
+      badge: "Términos del Servicio",
+      title: "Términos y condiciones del sitio web",
+      intro:
+        "Estos términos describen cómo puede utilizar el sitio web de InnovazionE y el contenido publicado aquí. Al acceder al sitio, acepta estos términos con carácter informativo.",
+      sections: [
+        {
+          title: "Uso del sitio",
+          body:
+            "El sitio se ofrece con fines informativos y de contacto. No puede reproducir ni redistribuir el contenido sin autorización previa por escrito de InnovazionE.",
+        },
+        {
+          title: "Sin asesoría profesional",
+          body:
+            "El contenido de este sitio no sustituye asesoría profesional en ingeniería, derecho o finanzas. Para orientación específica de proyecto, comuníquese directamente con InnovazionE.",
+        },
+        {
+          title: "Limitación de responsabilidad",
+          body:
+            "InnovazionE no se hace responsable por daños indirectos o consecuenciales derivados del uso del sitio o de la confianza depositada en su contenido. El uso es bajo su propio criterio.",
+        },
+      ],
+      backHome: "Volver al inicio",
     },
 
     // Footer
