@@ -19,6 +19,8 @@ export const translations = {
         "We have a specialized team in structural, sanitary, geotechnical, and hydrological engineering, as well as risk evaluation and management.",
       cta: "Request a Consultation",
       ctaSecondary: "View Our Work",
+      backgroundCaption:
+        "Decorative background image: structural engineers collaborating over infrastructure plans for projects in Guatemala.",
     },
 
     // Services Section
@@ -84,7 +86,8 @@ export const translations = {
         "We believe that understanding risk is the foundation of successful construction. By identifying potential issues early, we help our clients avoid costly delays, ensure regulatory compliance, and protect their investments for decades to come.",
         "Our approach integrates traditional engineering principles with modern data analysis, providing insights that go beyond standard assessments.",
       ],
-      imageAlt: "Structural engineers reviewing building plans",
+      imageAlt:
+        "Finite-element modeling for seismic and structural risk analysis of infrastructure in Guatemala.",
     },
 
     // Approach Section
@@ -281,6 +284,8 @@ export const translations = {
         "Diseño, rehabilitación, supervisión, ejecución y remodelación de infraestructura en toda Guatemala. Consultoría en resiliencia, confiabilidad, sostenibilidad, optimización e innovación.",
       cta: "Solicitar una Consulta",
       ctaSecondary: "Ver Nuestro Trabajo",
+      backgroundCaption:
+        "Imagen de fondo decorativa: equipo de ingeniería estructural trabajando sobre planos de infraestructura para proyectos en Guatemala.",
     },
 
     // Services Section
@@ -346,7 +351,8 @@ export const translations = {
         "Creemos que comprender el riesgo es la base de una construcción exitosa. Al identificar problemas potenciales tempranamente, ayudamos a nuestros clientes a evitar retrasos costosos, garantizar el cumplimiento normativo y proteger sus inversiones durante décadas.",
         "Nuestro enfoque integra principios tradicionales de ingeniería con análisis de datos modernos, proporcionando información que va más allá de las evaluaciones estándar.",
       ],
-      imageAlt: "Ingenieros estructurales revisando planos de edificios",
+      imageAlt:
+        "Modelado de elementos finitos para análisis de riesgo sísmico y estructural en infraestructura de Guatemala.",
     },
 
     // Approach Section
