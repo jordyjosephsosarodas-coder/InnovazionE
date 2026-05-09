@@ -18,9 +18,11 @@ export function ApproachSection() {
           <h2 className="text-3xl font-semibold tracking-tight text-foreground sm:text-4xl mb-4 text-balance">
             {t.approach.title}
           </h2>
-          <p className="text-lg text-accent font-medium mb-4">
-            {t.approach.subtitle}
-          </p>
+          {t.approach.subtitle ? (
+            <p className="text-lg text-accent font-medium mb-4">
+              {t.approach.subtitle}
+            </p>
+          ) : null}
           <p className="text-muted-foreground leading-relaxed">
             {t.approach.description}
           </p>

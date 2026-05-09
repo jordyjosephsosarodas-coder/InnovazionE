@@ -290,46 +290,83 @@ export const translations = {
 
     // Services Section
     services: {
-      label: "Nuestros Servicios",
-      title: "Evaluación Integral de Riesgos para Cada Fase",
+      label: "Evaluación y/o Diseño Integral Según la Demanda",
+      title:
+        "Como ingenieros civiles con distintas especializaciones brindamos productos específicos a su problema. No solo diseñamos, sino que utilizamos habilidades computacionales avanzadas para resolver complejos desafíos de ingeniería, garantizando que sus estructuras sean óptimas y seguras.",
       categories: [
         {
           number: "01",
-          title: "Diligencia Debida y Riesgo Transaccional",
-          target: "Para inversionistas inmobiliarios, compradores y aseguradoras.",
+          title: "Básico: Análisis y Diseño Estructural",
+          target: "Cálculo y diseño conforme a normativa.",
           items: [
-            { name: "Evaluaciones de Riesgo Estructural Pre-Adquisición", description: "Más allá de las inspecciones básicas. Cuantificamos el riesgo de mantenimiento diferido, defectos latentes y relaciones costo-riesgo estimadas para compradores potenciales." },
-            { name: "Estudios de Riesgo para Seguros", description: "Informes detallados para aseguradores para evaluar la pérdida máxima probable (PML) y riesgos de interrupción de negocios debido a fallas estructurales." },
-            { name: "Estudios de Zona de Influencia", description: "Análisis del impacto de construcciones adyacentes (excavaciones profundas, túneles) en activos existentes para mitigar riesgos de terceros." },
+            {
+              name: "Análisis y diseño estructural",
+              description:
+                "Cálculo de cargas críticas para diseñar elementos en base a una buena estructuración.",
+            },
+            {
+              name: "Planos para construcción",
+              description:
+                "Diseño conforme a la normativa y entrega de planos para construcción.",
+            },
           ],
         },
         {
           number: "02",
-          title: "Gestión de Activos Existentes",
-          target: "Para propietarios de edificios, administradores de instalaciones y municipalidades.",
+          title: "Estándar: Optimización Estructural",
+          target:
+            "Reducimos costos y huella ambiental sin sacrificar seguridad.",
           items: [
-            { name: "Evaluación de Riesgo de Fachadas y Envolventes", description: "Cumplimiento de ordenanzas (ej., Programas de Inspección de Seguridad de Fachadas) con enfoque en priorización de riesgos de seguridad." },
-            { name: "Componentes Estructurales para Estudios de Reserva", description: "Cuantificación de la vida útil restante de elementos estructurales para HOAs y propietarios comerciales para asegurar reservas de capital adecuadas." },
-            { name: "Evaluación de Daños Post-Evento", description: "Respuesta rápida y triaje después de incendios, inundaciones, impactos o eventos sísmicos para determinar riesgos de seguridad inmediatos y alcances de reparación." },
+            {
+              name: "Optimización de hormigón y acero",
+              description:
+                "Se reduce significativamente el consumo de hormigón y acero sin sacrificar la resistencia y por ende la seguridad.",
+            },
+            {
+              name: "Ahorro directo del proyecto",
+              description:
+                "Este paquete se amortiza solo al disminuir los costos totales de construcción y el impacto ambiental.",
+            },
           ],
         },
         {
           number: "03",
-          title: "Modelado Analítico Avanzado de Riesgos",
-          target: "Para desarrolladores, arquitectos y activos de alto valor.",
+          title: "Premium: Diseño Basado en Desempeño Estructural",
+          target:
+            "Decida cuánto dinero y operación proteger en el próximo gran sismo.",
           items: [
-            { name: "Análisis de Colapso Progresivo", description: "Evaluación de estructuras para asegurar que el daño localizado no conduzca al colapso total del sistema (crítico para rascacielos, edificios gubernamentales y centros de datos)." },
-            { name: "Cuantificación de Riesgo Sísmico y de Viento", description: "Evaluaciones probabilísticas de riesgo para portafolios o activos individuales, mapeando pérdidas anualizadas de excedencia." },
-            { name: "Evaluación de Riesgo por Vibraciones", description: "Evaluación de riesgos por sistemas ferroviarios cercanos, sistemas mecánicos o construcción para equipos sensibles (hospitales, laboratorios, centros de datos) y confort humano." },
+            {
+              name: "Cuantificación de desempeño y vida útil",
+              description:
+                "Cuantificación de la vida útil restante de elementos estructurales para propietarios y administradores, para asegurar reservas de capital adecuadas.",
+            },
+            {
+              name: "Planeación financiera del inmueble",
+              description:
+                "Permite diseñar el futuro financiero de su inmueble: usted deja de construir a ciegas según un reglamento mínimo y pasa a decidir exactamente cuánto capital y cuántos días de operación va a salvar.",
+            },
           ],
         },
         {
           number: "04",
-          title: "Soporte Forense y de Litigios",
-          target: "Para equipos legales, aseguradoras y propietarios de activos en dificultades.",
+          title: "Elite: Gestión de Riesgos",
+          target: "Para proyectos complejos o entornos de alto riesgo.",
           items: [
-            { name: "Análisis de Causa Raíz de Fallas", description: "Determinación del origen de distress estructural, agrietamiento o colapso para asignar responsabilidad y prevenir recurrencia." },
-            { name: "Análisis de Reparación vs. Reemplazo", description: "Análisis costo-beneficio de riesgo comparando los riesgos, tiempo de inactividad y costos del ciclo de vida de reparar una estructura en dificultades versus demoler y reconstruir." },
+            {
+              name: "Evaluación de seguridad exhaustiva",
+              description:
+                "Se identifican posibles vulnerabilidades estructurales y se mitigan los riesgos de fallo. Incluye informes detallados y protocolos de seguridad para proteger la inversión durante todo su ciclo de vida.",
+            },
+            {
+              name: "Análisis causal de raíz de fallas",
+              description:
+                "Determinación del origen de esfuerzos estructurales, agrietamiento o colapso para asignar responsabilidad y prevenir recurrencia.",
+            },
+            {
+              name: "Casos específicos de infraestructura en general",
+              description:
+                "Todos los casos que exijan un tiempo en evaluación y diseño considerable para preservar la seguridad del proyecto.",
+            },
           ],
         },
       ],
@@ -348,8 +385,13 @@ export const translations = {
       label: "Sobre InnovazionE",
       title: "Excelencia en Ingeniería Civil y Gestión y Evaluación de Proyectos",
       paragraphs: [
+        "Considerando que la infraestructura en general hoy en día es un ecosistema donde los activos físicos, los sistemas digitales, la gestión humana y las necesidades sociales están completamente integrados. Es compuesto por sistemas complejos sociotécnicos vitales, interconectados y al borde de su vida útil que sustentan la estabilidad social y económica y además requieren una gestión de riesgos avanzada para garantizar la resiliencia frente a los peligros naturales y antropogénicos.",
+        "Nosotros somos quien cuida este ecosistema y ofrece un control y mitigación de los factores que constantemente lo atacan. Desde sistemas financieros y de seguros, sistemas operacionales, de logística y cadena de suministro, sistemas de información, datos y ciberseguridad, hasta sistemas institucionales, públicos y de emergencia.",
+        "Entre este ecosistema que evaluamos está una parte fundamental que es la infraestructura física en él. Entonces realizamos la gestión de riesgos, diseño estructural y reforzamiento de bodegas, edificios, puentes, tanques elevados, letreros, antenas, presas y estructuras irregulares en general.",
         "Creemos que comprender el riesgo es la base de una construcción exitosa. Al identificar problemas potenciales tempranamente, ayudamos a nuestros clientes a evitar retrasos costosos, garantizar el cumplimiento normativo y proteger sus inversiones durante décadas.",
-        "Nuestro enfoque integra principios tradicionales de ingeniería con análisis de datos modernos, proporcionando información que va más allá de las evaluaciones estándar.",
+        "Los entregables consisten en planos estructurales y arquitectónicos (ya que contamos con arquitecto experto a renderizar planos), memoria de cálculo, recomendaciones y cualquier estudio específico de gestión de riesgo, ingeniería hidrológica, sanitaria y geotécnica, planificación, perfiles de proyecto, etc. El precio depende de los metros cuadrados del proyecto y los entregables acordados.",
+        "Las revisiones deben realizarse durante el desarrollo del proyecto y no al final cuando ya se ha completado la mayor parte del análisis y el trabajo detallado. El incumplimiento conllevará a la necesidad de más tiempo para realizar cambios importantes, lo que provocará un efecto dominó. Los cambios de gran envergadura se consideran una nueva solicitud.",
+        "El arquitecto es quien diseña los espacios, la estética y la funcionalidad (distribución de cuartos, iluminación), necesario para plasmar tus ideas, sin embargo, no siempre podrá obtener licencias municipales. Bajo el marco normativo unificado entre el Colegio de Arquitectos de Guatemala (CAG) y el Colegio de Ingenieros de Guatemala (CIG), alineado a las normas AGIES NSE 4 y CONRED NRD-1, la capacidad estructural para firmar planos se define estrictamente por la complejidad del proyecto: el arquitecto y el ingeniero civil poseen la capacidad legal de firmar diseños estructurales únicamente para viviendas o proyectos menores clasificados como \"obras ordinarias prescriptivas\", las cuales no superen los 2 niveles de altura y posean luces (claros entre columnas) menores a 5 metros sin sótanos. Esto a pesar de que un ingeniero a diferencia del arquitecto está capacitado en su pensum de estudios para análisis y diseño estructural limitado. Mientras que el ingeniero estructural (calculista) es el único profesional con la facultad e idoneidad legal exigida obligatoriamente para firmar y presentar memorias de cálculo ante la municipalidad cuando el proyecto sea una obra de uso público o comercial (sin importar el tamaño), o bien cualquier edificación que alcance los 3 niveles o más de altura.",
       ],
       imageAlt:
         "Modelado de elementos finitos para análisis de riesgo sísmico y estructural en infraestructura de Guatemala.",
@@ -358,8 +400,8 @@ export const translations = {
     // Approach Section
     approach: {
       label: "Nuestra Metodología",
-      title: "El Marco de Gestión de Riesgos 4-D",
-      subtitle: "Las firmas estándar diseñan según código. Nosotros gestionamos la incertidumbre.",
+      title: "Evaluación y Gestión de Riesgos de Infraestructura Civil",
+      subtitle: "",
       description:
         "Nuestra metodología va más allá de la ingeniería estructural estándar. Utilizamos un marco sistemático basado en probabilidades que identifica, cuantifica y mitiga el riesgo en cada etapa.",
       steps: [
