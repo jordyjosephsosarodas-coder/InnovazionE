@@ -27,7 +27,7 @@ export function HeroSection() {
             {t.hero.title}
           </h1>
           
-          <p className="mt-6 text-lg leading-relaxed text-muted-foreground max-w-2xl mx-auto text-pretty">
+          <p className="mt-6 text-lg leading-relaxed text-muted-foreground max-w-2xl mx-auto hyphens-auto text-justify">
             {t.hero.description}
           </p>
           

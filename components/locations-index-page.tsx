@@ -19,7 +19,7 @@ export function LocationsIndexPage() {
             <h1 className="mt-4 text-4xl font-semibold tracking-tight text-foreground sm:text-5xl">
               {t.locationsIndex.title}
             </h1>
-            <p className="mx-auto mt-4 max-w-2xl text-base leading-8 text-muted-foreground">
+            <p className="mx-auto mt-4 max-w-2xl text-base leading-8 text-muted-foreground hyphens-auto text-justify">
               {t.locationsIndex.subtitle}
             </p>
             <div className="mt-8 flex justify-center">
@@ -42,7 +42,7 @@ export function LocationsIndexPage() {
                 <h2 className="text-2xl font-semibold text-foreground transition group-hover:text-primary">
                   {department.name}
                 </h2>
-                <p className="mt-4 text-sm leading-7 text-muted-foreground">
+                <p className="mt-4 text-sm leading-7 text-muted-foreground hyphens-auto text-justify">
                   {department[language].description}
                 </p>
                 <span className="mt-6 inline-flex text-sm font-medium text-primary">

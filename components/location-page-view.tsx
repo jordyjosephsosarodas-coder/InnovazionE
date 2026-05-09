@@ -49,7 +49,7 @@ export function LocationPageView({ department }: LocationPageViewProps) {
               </div>
 
               <div className="rounded-3xl border border-border bg-background/80 p-8 shadow-sm backdrop-blur-sm">
-                <p className="text-lg leading-relaxed text-muted-foreground">{copy.description}</p>
+                <p className="text-lg leading-relaxed text-muted-foreground hyphens-auto text-justify">{copy.description}</p>
               </div>
 
               <section className="rounded-3xl border border-border bg-background/90 p-8 shadow-sm backdrop-blur-sm">
@@ -58,21 +58,21 @@ export function LocationPageView({ department }: LocationPageViewProps) {
                   {department.name}
                   {t.locationPage.whyInnovazionTrailing}
                 </h2>
-                <p className="mb-4 text-base leading-8 text-muted-foreground">{copy.riskDescription}</p>
-                <p className="mb-8 text-base leading-8 text-muted-foreground">{copy.additionalRisk}</p>
+                <p className="mb-4 text-base leading-8 text-muted-foreground hyphens-auto text-justify">{copy.riskDescription}</p>
+                <p className="mb-8 text-base leading-8 text-muted-foreground hyphens-auto text-justify">{copy.additionalRisk}</p>
 
                 <div className="grid gap-6 sm:grid-cols-2">
                   <div className="rounded-2xl border border-border bg-card p-6 shadow-sm">
                     <h3 className="mb-2 text-lg font-semibold text-foreground">
                       {t.locationPage.regionalStrengthTitle}
                     </h3>
-                    <p className="text-sm leading-7 text-muted-foreground">{copy.regionalStrength}</p>
+                    <p className="text-sm leading-7 text-muted-foreground hyphens-auto text-justify">{copy.regionalStrength}</p>
                   </div>
                   <div className="rounded-2xl border border-border bg-card p-6 shadow-sm">
                     <h3 className="mb-2 text-lg font-semibold text-foreground">
                       {t.locationPage.keyServicesTitle}
                     </h3>
-                    <ul className="list-disc pl-5 text-sm leading-7 text-muted-foreground">
+                    <ul className="list-disc pl-5 text-sm leading-7 text-muted-foreground [&>li]:hyphens-auto [&>li]:text-justify">
                       {t.locationPage.keyServiceBullets.map((item) => (
                         <li key={item}>{item}</li>
                       ))}

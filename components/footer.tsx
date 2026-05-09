@@ -24,7 +24,7 @@ export function Footer() {
             <Link href="/" className="text-xl font-semibold tracking-tight">
               InnovazionE
             </Link>
-            <p className="mt-4 text-sm text-primary-foreground/70 leading-relaxed">
+            <p className="mt-4 text-sm text-primary-foreground/70 leading-relaxed hyphens-auto text-justify">
               {t.footer.tagline}
             </p>
             <div className="mt-6 space-y-3 text-sm text-primary-foreground/70">

@@ -28,7 +28,9 @@ export function AboutSection() {
             </h2>
             <div className="space-y-4 text-muted-foreground leading-relaxed">
               {t.about.paragraphs.map((paragraph, index) => (
-                <p key={index}>{paragraph}</p>
+                <p key={index} className="hyphens-auto text-justify">
+                  {paragraph}
+                </p>
               ))}
             </div>
           </div>

@@ -19,11 +19,11 @@ export function ApproachSection() {
             {t.approach.title}
           </h2>
           {t.approach.subtitle ? (
-            <p className="text-lg text-accent font-medium mb-4">
+            <p className="text-lg text-accent font-medium mb-4 hyphens-auto text-justify">
               {t.approach.subtitle}
             </p>
           ) : null}
-          <p className="text-muted-foreground leading-relaxed">
+          <p className="text-muted-foreground leading-relaxed hyphens-auto text-justify">
             {t.approach.description}
           </p>
         </div>
@@ -46,14 +46,14 @@ export function ApproachSection() {
                     </h3>
                   </div>
                 </div>
-                <p className="text-sm text-accent italic mb-6">
+                <p className="text-sm text-accent italic mb-6 hyphens-auto text-justify">
                   {step.tagline}
                 </p>
                 <ul className="space-y-4">
                   {step.items.map((item) => (
                     <li key={item.name}>
                       <p className="font-medium text-foreground mb-1">{item.name}</p>
-                      <p className="text-sm text-muted-foreground leading-relaxed">
+                      <p className="text-sm text-muted-foreground leading-relaxed hyphens-auto text-justify">
                         {item.description}
                       </p>
                     </li>

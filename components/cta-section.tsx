@@ -12,10 +12,17 @@ export function CTASection() {
           <h2 className="text-3xl font-semibold tracking-tight text-foreground sm:text-4xl mb-6 text-balance">
             {t.cta.title}
           </h2>
-          <p className="text-muted-foreground leading-relaxed mb-8">
+          <p className="text-muted-foreground leading-relaxed mb-8 hyphens-auto text-justify mx-auto">
             {t.cta.description}
           </p>
         </div>
+        {t.cta.supplementalParagraphs.length > 0 ? (
+          <div className="max-w-3xl mx-auto mt-4 space-y-4 text-muted-foreground text-sm leading-relaxed hyphens-auto text-justify">
+            {t.cta.supplementalParagraphs.map((block, index) => (
+              <p key={`cta-sup-${index}`}>{block}</p>
+            ))}
+          </div>
+        ) : null}
       </div>
     </section>
   )

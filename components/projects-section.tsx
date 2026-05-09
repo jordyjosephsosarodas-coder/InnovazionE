@@ -51,7 +51,7 @@ export function ProjectsSection() {
               <h3 className="text-lg font-semibold text-foreground mb-2 group-hover:text-muted-foreground transition-colors">
                 {project.title}
               </h3>
-              <p className="text-sm text-muted-foreground leading-relaxed">
+              <p className="text-sm text-muted-foreground leading-relaxed hyphens-auto text-justify">
                 {project.description}
               </p>
             </article>

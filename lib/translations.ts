@@ -169,6 +169,7 @@ export const translations = {
       title: "Let's Discuss Your Project",
       description: "Get in touch to discuss your project and location needs.",
       button: "Contact Us",
+      supplementalParagraphs: [] as readonly string[],
     },
 
     locationsIndex: {
@@ -389,9 +390,6 @@ export const translations = {
         "Nosotros somos quien cuida este ecosistema y ofrece un control y mitigación de los factores que constantemente lo atacan. Desde sistemas financieros y de seguros, sistemas operacionales, de logística y cadena de suministro, sistemas de información, datos y ciberseguridad, hasta sistemas institucionales, públicos y de emergencia.",
         "Entre este ecosistema que evaluamos está una parte fundamental que es la infraestructura física en él. Entonces realizamos la gestión de riesgos, diseño estructural y reforzamiento de bodegas, edificios, puentes, tanques elevados, letreros, antenas, presas y estructuras irregulares en general.",
         "Creemos que comprender el riesgo es la base de una construcción exitosa. Al identificar problemas potenciales tempranamente, ayudamos a nuestros clientes a evitar retrasos costosos, garantizar el cumplimiento normativo y proteger sus inversiones durante décadas.",
-        "Los entregables consisten en planos estructurales y arquitectónicos (ya que contamos con arquitecto experto a renderizar planos), memoria de cálculo, recomendaciones y cualquier estudio específico de gestión de riesgo, ingeniería hidrológica, sanitaria y geotécnica, planificación, perfiles de proyecto, etc. El precio depende de los metros cuadrados del proyecto y los entregables acordados.",
-        "Las revisiones deben realizarse durante el desarrollo del proyecto y no al final cuando ya se ha completado la mayor parte del análisis y el trabajo detallado. El incumplimiento conllevará a la necesidad de más tiempo para realizar cambios importantes, lo que provocará un efecto dominó. Los cambios de gran envergadura se consideran una nueva solicitud.",
-        "El arquitecto es quien diseña los espacios, la estética y la funcionalidad (distribución de cuartos, iluminación), necesario para plasmar tus ideas, sin embargo, no siempre podrá obtener licencias municipales. Bajo el marco normativo unificado entre el Colegio de Arquitectos de Guatemala (CAG) y el Colegio de Ingenieros de Guatemala (CIG), alineado a las normas AGIES NSE 4 y CONRED NRD-1, la capacidad estructural para firmar planos se define estrictamente por la complejidad del proyecto: el arquitecto y el ingeniero civil poseen la capacidad legal de firmar diseños estructurales únicamente para viviendas o proyectos menores clasificados como \"obras ordinarias prescriptivas\", las cuales no superen los 2 niveles de altura y posean luces (claros entre columnas) menores a 5 metros sin sótanos. Esto a pesar de que un ingeniero a diferencia del arquitecto está capacitado en su pensum de estudios para análisis y diseño estructural limitado. Mientras que el ingeniero estructural (calculista) es el único profesional con la facultad e idoneidad legal exigida obligatoriamente para firmar y presentar memorias de cálculo ante la municipalidad cuando el proyecto sea una obra de uso público o comercial (sin importar el tamaño), o bien cualquier edificación que alcance los 3 niveles o más de altura.",
       ],
       imageAlt:
         "Modelado de elementos finitos para análisis de riesgo sísmico y estructural en infraestructura de Guatemala.",
@@ -476,6 +474,11 @@ export const translations = {
       title: "Hablemos de Su Proyecto",
       description: "Contáctanos para hablar sobre tu proyecto y necesidades de ubicación.",
       button: "Contáctenos",
+      supplementalParagraphs: [
+        "Los entregables consisten en planos estructurales y arquitectónicos (ya que contamos con arquitecto experto a renderizar planos), memoria de cálculo, recomendaciones y cualquier estudio específico de gestión de riesgo, ingeniería hidrológica, sanitaria y geotécnica, planificación, perfiles de proyecto, etc. El precio depende de los metros cuadrados del proyecto y los entregables acordados.",
+        "Las revisiones deben realizarse durante el desarrollo del proyecto y no al final cuando ya se ha completado la mayor parte del análisis y el trabajo detallado. El incumplimiento conllevará a la necesidad de más tiempo para realizar cambios importantes, lo que provocará un efecto dominó. Los cambios de gran envergadura se consideran una nueva solicitud.",
+        "El arquitecto es quien diseña los espacios, la estética y la funcionalidad (distribución de cuartos, iluminación), necesario para plasmar tus ideas, sin embargo, no siempre podrá obtener licencias municipales. Bajo el marco normativo unificado entre el Colegio de Arquitectos de Guatemala (CAG) y el Colegio de Ingenieros de Guatemala (CIG), alineado a las normas AGIES NSE 4 y CONRED NRD-1, la capacidad estructural para firmar planos se define estrictamente por la complejidad del proyecto: el arquitecto y el ingeniero civil poseen la capacidad legal de firmar diseños estructurales únicamente para viviendas o proyectos menores clasificados como \"obras ordinarias prescriptivas\", las cuales no superen los 2 niveles de altura y posean luces (claros entre columnas) menores a 5 metros sin sótanos. Esto a pesar de que un ingeniero a diferencia del arquitecto está capacitado en su pensum de estudios para análisis y diseño estructural limitado. Mientras que el ingeniero estructural (calculista) es el único profesional con la facultad e idoneidad legal exigida obligatoriamente para firmar y presentar memorias de cálculo ante la municipalidad cuando el proyecto sea una obra de uso público o comercial (sin importar el tamaño), o bien cualquier edificación que alcance los 3 niveles o más de altura.",
+      ] as readonly string[],
     },
 
     locationsIndex: {

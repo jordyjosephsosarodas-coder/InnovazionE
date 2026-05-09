@@ -16,14 +16,14 @@ export function TermsOfServicePage() {
             <div className="space-y-4">
               <p className="text-sm uppercase tracking-[0.28em] text-accent">{doc.badge}</p>
               <h1 className="text-4xl font-semibold tracking-tight text-foreground sm:text-5xl">{doc.title}</h1>
-              <p className="text-base leading-8 text-muted-foreground">{doc.intro}</p>
+              <p className="text-base leading-8 text-muted-foreground hyphens-auto text-justify">{doc.intro}</p>
             </div>
 
             <div className="mt-10 space-y-8">
               {doc.sections.map((section, index) => (
                 <section key={`${section.title}-${index}`} className="space-y-3">
                   <h2 className="text-2xl font-semibold text-foreground">{section.title}</h2>
-                  <p className="text-sm leading-7 text-muted-foreground">{section.body}</p>
+                  <p className="text-sm leading-7 text-muted-foreground hyphens-auto text-justify">{section.body}</p>
                 </section>
               ))}
             </div>
