@@ -201,22 +201,12 @@ export const translations = {
       badge: "Privacy Policy",
       title: "Your privacy matters to InnovazionE",
       intro:
-        "We collect only the information needed to respond to inquiries and support our client services. We do not sell personal data, and we protect any submitted contact details with appropriate security measures.",
+        "We are committed to maintaining discretion regarding your project information when required. We protect the confidentiality of engineering details and sensitive data with which we work.",
       sections: [
         {
-          title: "Information We Collect",
+          title: "Discretion and Confidentiality",
           body:
-            "When you contact us through the site, we may collect your name, email address, phone number, company, and project details to provide an accurate response and follow-up.",
-        },
-        {
-          title: "How We Use It",
-          body:
-            "We use submitted information strictly to respond to requests, share relevant project resources, and communicate about engineering services. We do not share your personal contact details with third parties for marketing purposes.",
-        },
-        {
-          title: "Data Security",
-          body:
-            "We maintain reasonable safeguards to protect data collected through the website. If you have any concerns about your information, please contact us using the details in the footer.",
+            "If your project requires discretion, InnovazionE fully respects the confidentiality of the information shared. We understand that some projects demand privacy and are committed to keeping your details under strict confidentiality as necessary.",
         },
       ],
       backHome: "Back to Home",
@@ -510,22 +500,12 @@ export const translations = {
       badge: "Política de Privacidad",
       title: "Su privacidad es importante para InnovazionE",
       intro:
-        "Solo recopilamos la información necesaria para responder consultas y apoyar nuestros servicios a clientes. No vendemos datos personales y protegemos los datos de contacto enviados con medidas de seguridad acordes.",
+        "Nos comprometemos a guardar discreción respecto a la información de su proyecto cuando así lo requiera. Protegemos la confidencialidad de los detalles de ingeniería y datos confidenciales con los que trabajamos.",
       sections: [
         {
-          title: "Información que recopilamos",
+          title: "Discreción y Confidencialidad",
           body:
-            "Cuando nos contacta por el sitio, podemos solicitar su nombre, correo electrónico, teléfono, empresa y detalles del proyecto para ofrecer una respuesta precisa y dar seguimiento.",
-        },
-        {
-          title: "Cómo la utilizamos",
-          body:
-            "Usamos esa información únicamente para responder solicitudes, compartir recursos del proyecto cuando aplique y comunicarnos sobre servicios de ingeniería. No compartimos sus datos personales de contacto con terceros con fines de marketing.",
-        },
-        {
-          title: "Seguridad de los datos",
-          body:
-            "Aplicamos salvaguardas razonables para proteger los datos recopilados por el sitio. Si tiene dudas sobre su información, contáctenos con los datos que aparecen al pie de página.",
+            "Si su proyecto requiere discreción, InnovazionE respeta completamente la confidencialidad de la información compartida. Comprendemos que algunos proyectos demandan privacidad y nos comprometemos a mantener sus detalles bajo estricta confidencialidad según sea necesario.",
         },
       ],
       backHome: "Volver al inicio",

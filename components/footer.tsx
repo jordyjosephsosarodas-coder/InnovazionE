@@ -65,6 +65,30 @@ export function Footer() {
               ))}
             </div>
           </div>
+
+          <div>
+            <h3 className="text-sm font-semibold mb-4">Servicios</h3>
+            <div className="space-y-2">
+              <Link
+                href="/services/warehouse-design"
+                className="block text-sm text-primary-foreground/70 hover:text-primary-foreground transition-colors"
+              >
+                Naves Industriales
+              </Link>
+              <Link
+                href="/services/architecture-hydrology-sanitary-geotechnical"
+                className="block text-sm text-primary-foreground/70 hover:text-primary-foreground transition-colors"
+              >
+                Arquitectura, Hidrología, Sanitaria y Geotecnia
+              </Link>
+              <Link
+                href="/services/structural-reinforcement"
+                className="block text-sm text-primary-foreground/70 hover:text-primary-foreground transition-colors"
+              >
+                Reforzamiento Estructural
+              </Link>
+            </div>
+          </div>
         </div>
         
         <div className="mt-16 pt-8 border-t border-primary-foreground/10 flex flex-col sm:flex-row justify-between items-center gap-4">
