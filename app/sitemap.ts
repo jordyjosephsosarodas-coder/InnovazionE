@@ -1,5 +1,6 @@
 import type { MetadataRoute } from "next"
 import { departments } from "@/lib/departments"
+import { isEnhancedDepartment } from "@/lib/department-rich-content"
 import { SITE_URL } from "@/lib/site-config"
 
 export default function sitemap(): MetadataRoute.Sitemap {
@@ -53,8 +54,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const departmentRoutes: MetadataRoute.Sitemap = departments.map((dept) => ({
     url: `${SITE_URL}/location/${dept.slug}`,
     lastModified,
-    changeFrequency: "monthly" as const,
-    priority: 0.85,
+    changeFrequency: isEnhancedDepartment(dept.slug) ? ("weekly" as const) : ("monthly" as const),
+    priority: isEnhancedDepartment(dept.slug) ? 0.92 : 0.85,
   }))
 
   return [...staticRoutes, ...departmentRoutes]

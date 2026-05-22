@@ -179,6 +179,13 @@ export const translations = {
         "Discover the services InnovazionE provides in every department. Select a region to see local risk management and engineering support.",
       backHome: "Back to home",
       viewDetailsCta: "View department details →",
+      featuredLabel: "Expanded local guides",
+      featuredTitle: "Structural engineering by department",
+      featuredSubtitle:
+        "These pages include AGIES context, municipal risk, and links to warehouse design, strengthening, and geotechnical services.",
+      featuredBadge: "Local guide",
+      featuredCta: "Open full guide →",
+      allDepartmentsTitle: "All departments",
     },
 
     locationPage: {
@@ -252,6 +259,10 @@ export const translations = {
       phone: "(502) 35142383",
       email: "ingsosaj@mail.com",
       departmentsTitle: "Departments",
+      featuredDepartmentsTitle: "Local guides",
+      featuredDepartmentsHint:
+        "Structural engineering with municipal detail and AGIES compliance:",
+      viewAllDepartments: "View all departments →",
       privacy: "Privacy Policy",
       terms: "Terms of Service",
     },
@@ -478,6 +489,13 @@ export const translations = {
         "Conozca los servicios que InnovazionE brinda en cada departamento. Elija una región para revisar apoyo local en gestión de riesgos e ingeniería.",
       backHome: "Volver al inicio",
       viewDetailsCta: "Ver detalles del departamento →",
+      featuredLabel: "Guías locales ampliadas",
+      featuredTitle: "Ingeniería estructural por departamento",
+      featuredSubtitle:
+        "Páginas con contexto AGIES, riesgo municipal y enlaces a bodegas, reforzamiento e ingeniería hidrológica, sanitaria y geotécnica.",
+      featuredBadge: "Guía local",
+      featuredCta: "Ver guía completa →",
+      allDepartmentsTitle: "Todos los departamentos",
     },
 
     locationPage: {
@@ -551,6 +569,10 @@ export const translations = {
       phone: "(502) 35142383",
       email: "ingsosaj@mail.com",
       departmentsTitle: "Departamentos",
+      featuredDepartmentsTitle: "Guías por departamento",
+      featuredDepartmentsHint:
+        "Ingeniería estructural con detalle por municipio y normativa AGIES:",
+      viewAllDepartments: "Ver todos los departamentos →",
       privacy: "Política de Privacidad",
       terms: "Términos de Servicio",
     },

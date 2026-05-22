@@ -4,6 +4,7 @@ import Link from "next/link"
 import { Mail, MapPin } from "lucide-react"
 import { useLanguage } from "@/lib/language-context"
 import { departments } from "@/lib/departments"
+import { ENHANCED_DEPARTMENT_SLUGS } from "@/lib/department-rich-content"
 
 function WhatsAppIcon({ className }: { className?: string }) {
   return (
@@ -16,11 +17,14 @@ function WhatsAppIcon({ className }: { className?: string }) {
 export function Footer() {
   const { t } = useLanguage()
 
+  const featured = departments.filter((d) => ENHANCED_DEPARTMENT_SLUGS.includes(d.slug))
+  const rest = departments.filter((d) => !ENHANCED_DEPARTMENT_SLUGS.includes(d.slug))
+
   return (
     <footer id="contact" className="bg-primary text-primary-foreground">
       <div className="mx-auto max-w-7xl px-6 lg:px-8 py-16 lg:py-20">
-        <div className="grid grid-cols-1 gap-12 lg:grid-cols-[1.1fr_1.9fr] lg:gap-20">
-          <div>
+        <div className="grid grid-cols-1 gap-12 lg:grid-cols-2 xl:grid-cols-4 lg:gap-10">
+          <div className="xl:col-span-1">
             <Link href="/" className="text-xl font-semibold tracking-tight">
               InnovazionE
             </Link>
@@ -32,17 +36,17 @@ export function Footer() {
                 <MapPin className="size-4 mt-0.5 shrink-0" />
                 <span>{t.footer.address}</span>
               </p>
-              <a 
-                href={`https://wa.me/50235142383`} 
-                target="_blank" 
+              <a
+                href="https://wa.me/50235142383"
+                target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center gap-2 hover:text-primary-foreground transition-colors"
               >
                 <WhatsAppIcon className="size-4 shrink-0" />
                 <span>{t.footer.phone}</span>
               </a>
-              <a 
-                href={`mailto:${t.footer.email}`} 
+              <a
+                href={`mailto:${t.footer.email}`}
                 className="flex items-center gap-2 hover:text-primary-foreground transition-colors"
               >
                 <Mail className="size-4 shrink-0" />
@@ -51,10 +55,27 @@ export function Footer() {
             </div>
           </div>
 
-          <div>
+          <div className="xl:col-span-2">
+            <h3 className="text-sm font-semibold mb-2">{t.footer.featuredDepartmentsTitle}</h3>
+            <p className="mb-4 text-xs text-primary-foreground/60 leading-relaxed">
+              {t.footer.featuredDepartmentsHint}
+            </p>
+            <ul className="mb-6 flex flex-col gap-2 sm:flex-row sm:flex-wrap sm:gap-x-6 sm:gap-y-2">
+              {featured.map((department) => (
+                <li key={department.slug}>
+                  <Link
+                    href={`/location/${department.slug}`}
+                    className="text-sm font-medium text-primary-foreground underline-offset-4 hover:underline"
+                  >
+                    {department.name}
+                  </Link>
+                </li>
+              ))}
+            </ul>
+
             <h3 className="text-sm font-semibold mb-4">{t.footer.departmentsTitle}</h3>
             <div className="grid grid-cols-2 gap-3 sm:grid-cols-3">
-              {departments.map((department) => (
+              {rest.map((department) => (
                 <Link
                   key={department.slug}
                   href={`/location/${department.slug}`}
@@ -64,6 +85,12 @@ export function Footer() {
                 </Link>
               ))}
             </div>
+            <Link
+              href="/location"
+              className="mt-4 inline-block text-sm font-medium text-primary-foreground/90 hover:text-primary-foreground underline-offset-4 hover:underline"
+            >
+              {t.footer.viewAllDepartments}
+            </Link>
           </div>
 
           <div>
@@ -90,16 +117,22 @@ export function Footer() {
             </div>
           </div>
         </div>
-        
+
         <div className="mt-16 pt-8 border-t border-primary-foreground/10 flex flex-col sm:flex-row justify-between items-center gap-4">
           <p className="text-sm text-primary-foreground/70">
             &copy; {new Date().getFullYear()} {t.footer.copyright}
           </p>
           <div className="flex gap-6">
-            <Link href="/privacy-policy" className="text-sm text-primary-foreground/70 hover:text-primary-foreground transition-colors">
+            <Link
+              href="/privacy-policy"
+              className="text-sm text-primary-foreground/70 hover:text-primary-foreground transition-colors"
+            >
               {t.footer.privacy}
             </Link>
-            <Link href="/terms-of-service" className="text-sm text-primary-foreground/70 hover:text-primary-foreground transition-colors">
+            <Link
+              href="/terms-of-service"
+              className="text-sm text-primary-foreground/70 hover:text-primary-foreground transition-colors"
+            >
               {t.footer.terms}
             </Link>
           </div>

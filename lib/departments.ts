@@ -76,13 +76,13 @@ export const departments: Department[] = [
     },
     es: {
       description:
-        "Apoyo a proyectos de desarrollo urbano, resiliencia sísmica e infraestructura de montaña en Chimaltenango.",
+        "Ingeniería civil en Chimaltenango: planos para construcción AGIES, bodegas sismorresistentes y gestión de riesgos de infraestructura en el corredor volcánico occidente–centro.",
       riskDescription:
-        "Chimaltenango está cerca de sistemas volcánicos activos y fallas regionales, por lo que el sismo y la exposición a ceniza volcánica son prioridad en diseño. Evaluamos movimiento del suelo y carga por ceniza en estructuras en todo el departamento.",
+        "Alta sismicidad, ceniza volcánica y taludes inestables condicionan cada memoria de cálculo en Tecpán, la capital departamental y municipios de la CA-1.",
       additionalRisk:
-        "Las pendientes marcadas y las lluvias intensas suman amenazas sísmicas que disparan deslizamientos; nuestros planes incluyen estabilización de suelos y drenaje para infraestructura de montaña.",
+        "Integramos ingeniería hidrológica, sanitaria y geotécnica con cálculo, reforzamiento y diseño estructural avanzado para obra comercial e industrial.",
       regionalStrength:
-        "El departamento se beneficia de ingeniería que equilibra resiliencia sísmica con gestión de riesgo en taludes por lluvias y ceniza.",
+        "InnovazionE atiende Chimaltenango desde ingeniería estructural Guatemala con visitas de campo y servicios especializados en bodegas y reforzamiento.",
     },
   },
   {
@@ -124,13 +124,13 @@ export const departments: Department[] = [
     },
     es: {
       description:
-        "Servicios integrales de ingeniería para corredores viales y desarrollo en tierras bajas en El Progreso.",
+        "Ingeniería estructural y gestión de riesgos de infraestructura en El Progreso: Guastatoya, corredor seco, bodegas agroindustriales y planos para construcción.",
       riskDescription:
-        "El Progreso es vulnerable al sacudimiento por fallas cercanas, sobre todo en infraestructura lineal y cruces de río; diseñamos puentes, vías y edificaciones con resistencia sísmica.",
+        "Fallas del Motagua y suelos aluviales blandos elevan la demanda sísmica en puentes, bodegas y losas — no solo en edificios altos.",
       additionalRisk:
-        "Los suelos sueltos aluviales y las inundaciones fluviales son claves; aplicamos mejoramiento geotécnico y alineamientos resilientes al agua.",
+        "Combinamos ingeniería hidrológica, sanitaria y geotécnica con arquitectura y diseño de bodegas para el sector agroexportador regional.",
       regionalStrength:
-        "El departamento gana cuando se une diseño sísmico con conocimiento en inundaciones y resistencia del suelo en zonas bajas.",
+        "Cálculo, reforzamiento y diseño estructural avanzado con trazabilidad AGIES para licencias en municipios del departamento.",
     },
   },
   {
@@ -412,13 +412,13 @@ export const departments: Department[] = [
     },
     es: {
       description:
-        "Asesoría en proyectos de altiplano y costa con énfasis en seguridad, durabilidad y condiciones locales.",
+        "Ingeniería estructural en San Marcos, Guatemala: AGIES en San Pedro y Malacatán, bodegas, planos para construcción e ingeniería civil en occidente.",
       riskDescription:
-        "San Marcos combina riesgo sísmico de altiplano con peligros volcánicos, además de tormentas en la costa y exposición a deslizamientos; la seguridad sísmica es central en nuestro enfoque.",
+        "Alta sismicidad en altiplano y costa exige cumplimiento AGIES NSE-4 en municipios de alta vulnerabilidad y memoria de cálculo firmable.",
       additionalRisk:
-        "Las tormentas costeras, la inestabilidad de taludes y la erosión se abordan con diseño resiliente del sitio y planeación de infraestructura.",
+        "Gestión de riesgos de infraestructura, arquitectura y diseño de bodegas, más cálculo y reforzamiento estructural avanzado en obra existente.",
       regionalStrength:
-        "La ingeniería protege igualmente comunidades montañosas y costeras ante sismo y tiempo severo.",
+        "Ingeniería hidrológica, sanitaria y geotécnica integrada para predios en ladera, quebradas y zona costera del departamento.",
     },
   },
   {
