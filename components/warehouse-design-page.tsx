@@ -21,7 +21,7 @@ export function WarehouseDesignPage() {
                 <div>
                   <p className="text-sm uppercase tracking-[0.24em] text-accent">Servicios Especializados</p>
                   <h1 className="mt-4 text-4xl font-semibold tracking-tight text-foreground sm:text-5xl">
-                    Naves Industriales
+                    Diseño de Naves Industriales (Bodegas)
                   </h1>
                   <p className="mt-2 text-lg text-muted-foreground">(Bodegas y Almacenes)</p>
                 </div>
@@ -105,7 +105,7 @@ export function WarehouseDesignPage() {
           {/* Services for Different Industries */}
           <section className="rounded-3xl border border-border bg-background/90 p-8 shadow-sm backdrop-blur-sm mb-12">
             <h2 className="mb-8 text-2xl font-semibold text-foreground">
-              Naves Industriales para Diversos Sectores
+              Diseño de Naves Industriales para Diversos Sectores
             </h2>
             <ul className="space-y-4 text-base leading-8 text-muted-foreground">
               <li className="flex gap-3">

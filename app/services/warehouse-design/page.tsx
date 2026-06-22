@@ -2,25 +2,24 @@ import type { Metadata } from 'next'
 import { WarehouseDesignPage } from '@/components/warehouse-design-page'
 import { SITE_NAME, absoluteUrl, DEFAULT_OG_IMAGE_PATH } from '@/lib/site-config'
 
-const title = 'Naves Industriales en Guatemala — Diseño de Bodegas y Almacenes'
-const description = 'Naves industriales, bodegas y almacenes sismorresistentes en Guatemala. Nuestros proyectos optimizan espacios, aseguran estabilidad estructural y cumplen normas de construcción. Consultoría técnica integral para almacenes agrícolas, logísticos e industriales.'
+const title = 'Diseño de Naves Industriales y Bodegas en Guatemala — Almacenes, Bodegas y Naves Industriales'
+const description = 'Diseño de naves industriales, bodegas y almacenes en Guatemala. Soluciones sismorresistentes para bodegas agrícolas, logísticas y comerciales con planos listos para permiso municipal y optimización estructural.'
 const url = absoluteUrl('/services/warehouse-design')
 
 export const metadata: Metadata = {
   title,
   description,
   keywords: [
-    'diseño de bodegas',
-    'naves industriales',
-    'almacenes estructurales',
-    'bodegas sismorresistentes',
+    'diseño de naves industriales Guatemala',
+    'diseño de bodegas Guatemala',
     'diseño de almacenes Guatemala',
-    'ingeniería de almacenes',
-    'construcción de bodegas',
-    'estructuras industriales',
-    'almacenes seguros',
-    'bodega sismorresistente Guatemala',
-    'diseño estructural bodegas',
+    'naves industriales sismorresistentes',
+    'bodega industrial Guatemala',
+    'diseño de almacén',
+    'planos de bodegas Guatemala',
+    'ingeniería de naves industriales',
+    'bodegas agroindustriales Guatemala',
+    'bodegas logísticas Guatemala',
   ],
   authors: [{ name: SITE_NAME }],
   creator: SITE_NAME,
@@ -89,7 +88,7 @@ export default function Page() {
   const serviceJsonLd = {
     '@context': 'https://schema.org',
     '@type': 'ProfessionalService',
-    name: 'Diseño de Naves Industriales y Bodegas',
+    name: 'Diseño de Naves Industriales (Bodegas)',
     provider: {
       '@type': 'LocalBusiness',
       name: SITE_NAME,

@@ -26,6 +26,18 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.85,
     },
     {
+      url: `${SITE_URL}/services/infrastructure-risk-management`,
+      lastModified,
+      changeFrequency: "monthly",
+      priority: 0.85,
+    },
+    {
+      url: `${SITE_URL}/services/infrastructure-design`,
+      lastModified,
+      changeFrequency: "monthly",
+      priority: 0.85,
+    },
+    {
       url: `${SITE_URL}/services/architecture-hydrology-sanitary-geotechnical`,
       lastModified,
       changeFrequency: "monthly",

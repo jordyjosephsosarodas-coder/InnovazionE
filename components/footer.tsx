@@ -73,7 +73,6 @@ export function Footer() {
               ))}
             </ul>
 
-            <h3 className="text-sm font-semibold mb-4">{t.footer.departmentsTitle}</h3>
             <div className="grid grid-cols-2 gap-3 sm:grid-cols-3">
               {rest.map((department) => (
                 <Link
@@ -100,13 +99,43 @@ export function Footer() {
                 href="/services/warehouse-design"
                 className="block text-sm text-primary-foreground/70 hover:text-primary-foreground transition-colors"
               >
-                Naves Industriales
+                Diseño de Naves Industriales (Bodegas)
               </Link>
               <Link
-                href="/services/architecture-hydrology-sanitary-geotechnical"
+                href="/services/infrastructure-design"
                 className="block text-sm text-primary-foreground/70 hover:text-primary-foreground transition-colors"
               >
-                Arquitectura, Hidrología, Sanitaria y Geotecnia
+                Diseño de Todo Tipo de Infraestructura
+              </Link>
+              <Link
+                href="/services/infrastructure-risk-management"
+                className="block text-sm text-primary-foreground/70 hover:text-primary-foreground transition-colors"
+              >
+                Evaluación y Gestión de Riesgos de Infraestructura Civil
+              </Link>
+              <Link
+                href="/services/architecture"
+                className="block text-sm text-primary-foreground/70 hover:text-primary-foreground transition-colors"
+              >
+                Arquitectura
+              </Link>
+              <Link
+                href="/services/hydrology"
+                className="block text-sm text-primary-foreground/70 hover:text-primary-foreground transition-colors"
+              >
+                Hidrología
+              </Link>
+              <Link
+                href="/services/sanitary-engineering"
+                className="block text-sm text-primary-foreground/70 hover:text-primary-foreground transition-colors"
+              >
+                Ingeniería Sanitaria
+              </Link>
+              <Link
+                href="/services/geotechnical"
+                className="block text-sm text-primary-foreground/70 hover:text-primary-foreground transition-colors"
+              >
+                Ingeniería Geotécnica
               </Link>
               <Link
                 href="/services/structural-reinforcement"

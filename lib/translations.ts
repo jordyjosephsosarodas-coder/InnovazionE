@@ -569,9 +569,10 @@ export const translations = {
       phone: "(502) 35142383",
       email: "ingsosaj@mail.com",
       departmentsTitle: "Departamentos",
-      featuredDepartmentsTitle: "Guías por departamento",
+        featuredDepartmentsTitle: "Trabajamos En:",
+        departmentsTitle: "",
       featuredDepartmentsHint:
-        "Ingeniería estructural con detalle por municipio y normativa AGIES:",
+        "Servicios y cobertura por departamento.",
       viewAllDepartments: "Ver todos los departamentos →",
       privacy: "Política de Privacidad",
       terms: "Términos de Servicio",
